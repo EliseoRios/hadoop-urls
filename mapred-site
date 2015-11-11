@@ -1,0 +1,6 @@
+<configure>
+ <property>
+  <name>mapreduce.framework.name</name>
+  <value>yarn</value> <!– and not local (!) –>
+ </property>
+</configure>

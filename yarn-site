@@ -1,0 +1,14 @@
+<configuration>
+ <property>
+   <name>yarn.resourcemanager.hostname</name>
+   <value>ubuntu-master</value>
+ </property>
+ <property>
+   <name>yarn.nodemanager.hostname</name>
+   <value>ubuntu-master</value> <!– or nodo –>
+ </property>
+ <property>
+   <name>yarn.nodemanager.aux-services</name>
+   <value>mapreduce_shuffle</value>
+ </property>
+</configuration>
