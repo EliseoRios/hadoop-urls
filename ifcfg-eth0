@@ -1,0 +1,29 @@
+# Realtek Semiconductor Co., Ltd. RTL-8139/8139C/8139C+
+DEVICE=eth0
+BOOTPROTO=none
+HWADDR=00e130a:0d
+ONBOOT=yes
+DHCP_HOSTNAME=localhost.localdomain
+NM_CONTROLLED=no
+IPADDR=192.168.0.70
+NETMASK=255.255.255.0
+GATEWAY=192.168.0.3
+TYPE=Ethernet
+USERCTL=yes
+PEERDNS=yes
+IPV6INIT=no
+DNS1=192.168.0.3 
+
+#-----------------------------------------------------
+
+DEVICE="eth0"
+BOOTPROTO=none
+NM_CONTROLLED="no"
+ONBOOT="no"
+TYPE="Ethernet"
+UUID="f9fb4fda-cec6-42f6-83ab-cb93e8603c10"
+DEFROUTE=yes
+IPV4_FAILURE_FATAL=yes
+IPV6INIT=no
+NAME="System eth0"
+HWADDR=08:00:27:05:BD:3A
